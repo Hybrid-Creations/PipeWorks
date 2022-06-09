@@ -593,6 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be08d2654beec385bcc565758488aeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  self: {fileID: 8928611417599347187}
 --- !u!4 &1280633194
 Transform:
   m_ObjectHideFlags: 0
@@ -983,6 +984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Person
       objectReference: {fileID: 0}
+    - target: {fileID: 8279790492000781522, guid: 5c55863016911736299495620b17066c, type: 3}
+      propertyPath: isSelf
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8383914635980773152, guid: 5c55863016911736299495620b17066c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1074,3 +1079,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8383914635980773152, guid: 5c55863016911736299495620b17066c, type: 3}
   m_PrefabInstance: {fileID: 8928611417599347185}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8928611417599347187 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8279790492000781522, guid: 5c55863016911736299495620b17066c, type: 3}
+  m_PrefabInstance: {fileID: 8928611417599347185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065f73772f65b844fa271a50eb7214de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

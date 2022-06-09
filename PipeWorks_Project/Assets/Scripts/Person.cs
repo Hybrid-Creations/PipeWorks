@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+public class Person : MonoBehaviour
 {
    [SerializeField]
-   Person self;
+   bool isSelf = false;
 
     // Start is called before the first frame update
     void Start()
